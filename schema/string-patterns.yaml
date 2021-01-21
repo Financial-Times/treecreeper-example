@@ -1,0 +1,4 @@
+CODE: '^(?=.{2,64}$)[a-z0-9]+(?:-[a-z0-9]+)*$' # system-code.1
+RELATIONSHIP_NAME: '^(?=.{2,64}$)[A-Z][A-Z_]*[A-Z]$' # HAS_A_RELATIONSHIP
+ATTRIBUTE_NAME: '^(?=.{2,64}$)[a-z][a-zA-Z\d]+$' # attributeName
+PERMISSIVE: '^(?=.{2,64}$).*$'

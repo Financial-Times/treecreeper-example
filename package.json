@@ -1,0 +1,52 @@
+{
+  "name": "treecreeper-example",
+  "version": "1.0.0",
+  "description": "Example of how to use treecreeper components to build an API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Financial-Times/treecreeper-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Financial-Times/treecreeper-example/issues"
+  },
+  "homepage": "https://github.com/Financial-Times/treecreeper-example#readme",
+  "dependencies": {
+    "@financial-times/n-logger": "^8.0.0",
+    "@financial-times/tc-api-express": "^0.5.35",
+    "@financial-times/tc-schema-sdk": "^0.5.35",
+    "@financial-times/tc-ui": "^0.5.35",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "graphql-playground-middleware-express": "^1.7.22",
+    "node-fetch": "^2.6.1",
+    "querystring": "^0.2.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "sucrase": "^3.17.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-transform-react-jsx": "^7.12.12",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@babel/register": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "concurrently": "^5.3.0",
+    "css-loader": "^3.2.1",
+    "mini-css-extract-plugin": "^0.8.0",
+    "nodemon": "^2.0.7",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.0",
+    "webpack-encoding-plugin": "^0.3.1",
+    "webpack-manifest-plugin": "^2.2.0"
+  }
+}

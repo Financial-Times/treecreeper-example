@@ -1,0 +1,150 @@
+.header-search-form {
+	margin: 0;
+	position: relative;
+	top: 6px;
+	padding-left: 10px;
+	padding-right: 0;
+	margin-right: -10px;
+}
+
+.o-header-services__primary-nav--drawer .header-search-form {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-right: 0;
+}
+
+/* home */
+
+.o-layout__hero {
+	position: relative;
+}
+
+.o-layout__hero canvas {
+	display: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+	.o-layout__hero canvas {
+		display: block;
+		width: 100vw;
+		top: 0;
+		height: 100%;
+		position: absolute;
+		z-index: -1;
+	}
+}
+
+.home-page-search {
+	max-width: 400px;
+	width: 100%;
+}
+.my-stuff .o-expander__content {
+	max-height: 25px;
+	overflow: hidden;
+	list-style: none;
+	padding: 0;
+	margin-bottom: 10px;
+}
+
+.my-stuff .o-expander__content--expanded {
+	max-height: none;
+}
+
+.my-stuff .o-expander:not(.o-expander--inactive) .o-expander__toggle {
+	margin-bottom: 10px;
+	display: inline;
+}
+
+.my-stuff li {
+	display: inline;
+}
+
+.my-stuff li::before {
+	display: inline;
+	content: ', ';
+}
+
+.my-stuff li:first-child::before {
+	display: none;
+}
+/* labels */
+
+.o-labels:not(:first-child) {
+	margin-left: 0.5rem;
+}
+
+.o-labels--unknown {
+	background-color: white;
+	outline: 1px solid red;
+	color: red;
+}
+
+/* report page */
+
+.report-form {
+	--_o-layout-overview-columns: 2;
+}
+
+.report-form .o-buttons-group {
+	margin-bottom: 20px;
+}
+
+/* search page */
+
+.basic-search-box button {
+	vertical-align: baseline;
+}
+
+.dewey-easter-egg {
+	grid-row: none;
+}
+
+.dewey-easter-egg img {
+	vertical-align: middle !important;
+	width: 40px;
+}
+
+.o-table .biz-ops-table-caption {
+	border-bottom: 2px solid;
+	text-align: left;
+	margin-top: 20px;
+	margin-bottom: 0;
+	color: var(--o-colors-slate);
+	font-family: MetricWeb, sans-serif;
+	font-size: 28px;
+	line-height: 32px;
+}
+
+.visually-hidden {
+	position: absolute;
+	clip: rect(0 0 0 0);
+	margin: -1px;
+	border: 0;
+	overflow: hidden;
+	padding: 0;
+	width: 1px;
+	height: 1px;
+	white-space: nowrap;
+}
+
+.o-labels--red {
+	background: var(--o-colors-crimson);
+	color: white;
+}
+
+.o-labels--amber {
+	background: var(--o-colors-mandarin);
+}
+
+.o-labels--green {
+	background: var(--o-colors-jade);
+	color: white;
+}
+
+[data-page-type='api-explorer'] .o-layout__main {
+	margin-top: 0;
+}
+
+.api-explorer-iframe {
+	width: 100%;
+	height: 100%;
+}
